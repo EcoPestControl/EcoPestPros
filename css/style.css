@@ -40,7 +40,8 @@ a:hover {
 }
 
 /* --------------------------Page Sections---------------------------- */
-/* #splash {
+
+#splash {
    	background: url(images/splash.png) no-repeat center top fixed;
    	background-size: cover;  
 	height: 1000px;
@@ -71,7 +72,7 @@ a:hover {
   	padding: 20px 0;
 
 }
-*/
+
 /* ----------------Container Styles----------------- */
 .container {
   width: 960px;
@@ -111,7 +112,7 @@ ul#menu li a.button:hover {
 }
 
 /* ----------------Title Page Styles------------------- */
-/*
+
 #title-page{
   width: 100%;
   padding-top: 100px;
@@ -130,9 +131,9 @@ ul#menu li a.button:hover {
   padding-bottom: 20px;
   text-shadow: 2px 2px #000;
 }
-*/
+
 /* -------------------Footer Credits--------------------- */
-/*
+
 #credits {
   text-align: center;	
 }
@@ -143,9 +144,8 @@ ul#menu li a.button:hover {
   font-size: 1em;
   margin: 10px 0;
 }
-*/
+
 /* ----------------------Misc-----------------------------*/
-/*
 .fltright{
 	float:right;
 	margin: 20px;
@@ -154,4 +154,3 @@ ul#menu li a.button:hover {
 	float:left;
 	margin: 20px 20px 20px 0;
 }
-*/
