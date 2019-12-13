@@ -2,7 +2,7 @@
 /* CSS Document created by Breanna Bush, October 5,2017*/
 
 /* ---------------------------HTML Tag Styles----------------------------- */
-/* -- body {
+body {
   margin: 0px;
   padding: 0px;
   color: #333;
@@ -32,13 +32,13 @@ a:link {
 	color: #000;
 }
 a:visited {
-	color: #FF19E4;
+	color: #fff;
 }
 a:hover {
-	color: #00FFEA;
+	color: #00ff7f;
 	text-decoration: none;
 }
-*/
+
 /* --------------------------Page Sections---------------------------- */
 /* #splash {
    	background: url(images/splash.png) no-repeat center top fixed;
@@ -73,7 +73,7 @@ a:hover {
 }
 */
 /* ----------------Container Styles----------------- */
-/* .container {
+.container {
   width: 960px;
   margin: 0 auto;
   overflow: hidden;
@@ -83,7 +83,7 @@ a:hover {
   float: left;
   overflow: hidden;
 }
--- */ 
+ 
 /* -----------------Navigation Bar Styles-------------------*/ 
 
 #navbar{
