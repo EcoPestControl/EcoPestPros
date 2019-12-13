@@ -107,7 +107,7 @@ ul#menu li a.button {
 	padding: 20px 100px 20px 100px; 
 }
 ul#menu li a.button:hover {
-	background-color: rgba(42, 188, 238, 0.1);
+	background-color: #00ff7f;
 }
 
 /* ----------------Title Page Styles------------------- */
