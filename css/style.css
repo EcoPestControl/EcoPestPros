@@ -1,12 +1,12 @@
 @charset "UTF-8";
-/* CSS Document created by Breanna Bush, October 5,2017*/
+/* CSS Document created by Breanna Bush, December 13, 2019*/
 
 /* ---------------------------HTML Tag Styles----------------------------- */
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: auto;
+  padding: auto;
   color: #333;
-  font-family: 'Yatra One', cursive;
+  font-family: 'Times New Roman', cursive;
 }
 p {
   font-size: 20px;
@@ -24,10 +24,6 @@ h3 {
   padding: 20px 0;
   font-weight: bold;
 }
-table {
-	border: solid #000 2.5px;
-	border-collapse:collapse;
-}
 a:link {
 	color: #000;
 }
@@ -42,65 +38,82 @@ a:hover {
 /* --------------------------Page Sections---------------------------- */
 
 #splash {
-   	background: url(images/splash.png) no-repeat center top fixed;
+   	background: #000;
    	background-size: cover;  
-	height: 1000px;
+	height: auto;
 	
 }
 
-#overview {
-	padding: 40px 0 60px 0;
-   	background-color: #00FFEA;
-	color: #fff;
-}
-
-#media {
-	padding: 40px 0 60px 0;	
-    background: url(images/media_blur.png) no-repeat center top fixed;
-	color: #fff;
-}
-
-#references_and_author {
-	padding: 40px 0 60px 0;	
-    background-color: #00FFEA;
+#index {
+	padding: 10px;
+   	background-color: #fff;
 	color: #222;
+    text-align: center;
+}
+
+#services {
+	padding: 40px 0 60px 0;
+    height: px;
+    background: #fff;
+	color: #222;
+    text-align: center;
+}
+
+#knowledge {
+	padding: 40px 0 60px 0;	
+    background-color: #fff;
+	color: #222;
+    text-align: center;
+}
+
+#aboutUs {
+	padding: 40px 0 60px 0;	
+    background-color: #fff;
+	color: #222;
+    text-align: center;
+}
+
+#contact {
+	padding: 40px 0 60px 0;	
+    background-color: #fff;
+	color: #222;
+    text-align: center;
 }
 
 #footer{
-  	background-color: #C3C4C5;
-  	color: #fff;
-  	padding: 20px 0;
-
+    padding: 5px 5px 5px 5px;
+  	background-color: #00ff7f;
+  	color: #222;
+    text-align: center;
 }
 
 /* ----------------Container Styles----------------- */
 .container {
-  width: 960px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-.half_container {
-  width: 50%;
-  float: left;
+  width: auto;
+  margin: auto;
   overflow: hidden;
 }
  
 /* -----------------Navigation Bar Styles-------------------*/ 
 
 #navbar{
-	position: fixed;
+    position: wrap;
+    text-align: center;
+    display: inline-block;
 	top: 0;
 	width: 100%;
-	height: 54px;
-	background-color: #000; 
+	height: 50px;
+	background-color: #00ff7f;
+    border-bottom: 2px solid #000000;
 }	
 ul#menu {
 	list-style: none;
-	padding-top: 0px;
+	padding-top: 20px 100px 20px 100px;
 } 
 ul#menu li {
-	float: left;
 	padding-bottom: 20px;
+    display: inline-block;
+    text-align: center;
 } 
 ul#menu li a.button {
 	font-size: 16px;
@@ -115,21 +128,19 @@ ul#menu li a.button:hover {
 
 #title-page{
   width: 100%;
-  padding-top: 100px;
-  color: #fff;
-  text-align: right;
+  padding-top: auto;
+  color: #000;
+  text-align: center;
 }
 #title-page h1 {
-  font-family: 'Yatra One', cursive;
-  font-size: 80px; 	
-  text-shadow: 3px 3px #000;
+  font-family: 'Times New Roman', cursive;
+  font-size: 50px;
 }
-#title-page h3 {
-  font-size: 3em;
-  font-style: italic;
+#title-page p {
+  font-size: 19px;
+  font-style: normal;
   margin: 0 40px;
-  padding-bottom: 20px;
-  text-shadow: 2px 2px #000;
+  padding-bottom: 0px;
 }
 
 /* -------------------Footer Credits--------------------- */
