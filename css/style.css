@@ -37,13 +37,6 @@ a:hover {
 
 /* --------------------------Page Sections---------------------------- */
 
-#splash {
-   	background: #000;
-   	background-size: cover;  
-	height: auto;
-	
-}
-
 #index {
 	padding: 10px;
    	background-color: #fff;
