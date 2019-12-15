@@ -109,9 +109,9 @@ ul#menu li {
     text-align: start;
 } 
 ul#menu li a.button {
-	font-size: 16px;
+	font-size: 14px;
 	text-decoration: none;
-	padding: 20px 100px 20px 100px; 
+	padding: 10px 100px 10px 100px; 
 }
 ul#menu li a.button:hover {
 	background-color: #00ff7f;
