@@ -106,7 +106,6 @@ ul#menu {
 ul#menu li {
 	padding-bottom: 20px;
     display: inline-block;
-	width: 60px;
 	text-align: center;
 } 
 ul#menu li a.button {
