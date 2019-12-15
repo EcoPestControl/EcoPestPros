@@ -112,10 +112,10 @@ ul#menu li {
 ul#menu li a.button {
 	font-size: 16px;
 	text-decoration: none;
-	padding: 20px 100px 20px 100px; 
+	width: 60px;
 }
 ul#menu li a.button:hover {
-	background-color: #00ff7f;
+	background-color: transparent;
 }
 
 /* ----------------Title Page Styles------------------- */
