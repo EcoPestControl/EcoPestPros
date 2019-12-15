@@ -101,17 +101,17 @@ a:hover {
 }	
 ul#menu {
 	list-style: none;
-	padding-top: 10px 100px 10px 100px;
+	padding-top: auto;
 } 
 ul#menu li {
-	padding-bottom: 20px;
+	padding-bottom: auto;
     display: inline;
     text-align: start;
 } 
 ul#menu li a.button {
 	font-size: 14px;
 	text-decoration: none;
-	padding: 10px 100px 10px 100px; 
+	padding: auto; 
 }
 ul#menu li a.button:hover {
 	background-color: #00ff7f;
