@@ -106,6 +106,7 @@ ul#menu {
 ul#menu li {
 	padding-bottom: 20px;
 	float: left;
+	display: inline-block;
 } 
 ul#menu li a.button {
 	font-size: 16px;
